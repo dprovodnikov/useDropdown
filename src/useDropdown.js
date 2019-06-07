@@ -13,7 +13,7 @@ const useDropdown = () => {
 
   useEffect(() => {
     const handleGlobalMouseDown = ({ target }) => {
-      if (ref.current.contains(target)) {
+      if (!ref.current || ref.current.contains(target)) {
         return;
       }
 
