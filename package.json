@@ -1,0 +1,36 @@
+{
+  "name": "use-dropdown",
+  "version": "1.0.0",
+  "description": "useDropdown hook for react applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && babel src -d dist",
+    "test": "jest"
+  },
+  "keywords": [
+    "use",
+    "dropdown",
+    "hook",
+    "usedropdown",
+    "use-dropdown"
+  ],
+  "author": "Denys Provodnikov <dp.wireden@gmail.com> (https://madappgang.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "babel-preset-minify": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dprovodnikov/useDropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dprovodnikov/useDropdown/issues"
+  },
+  "homepage": "https://github.com/dprovodnikov/useDropdown#readme"
+}
