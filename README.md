@@ -33,7 +33,7 @@ const Select = function () {
 
       <button onClick={close}>
         Close select
-    </button>
+      </button>
     </div>
   );
 };
